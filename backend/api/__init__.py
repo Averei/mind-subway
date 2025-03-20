@@ -1,0 +1,1 @@
+from .db import get_all_outlets

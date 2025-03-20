@@ -1,0 +1,28 @@
+# Environment files
+.env*
+!.env.example
+
+# Python backend
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Frontend is handled by its own .gitignore
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System
+.DS_Store
+Thumbs.db

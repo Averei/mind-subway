@@ -1,0 +1,1 @@
+from .outlet_routes import router
