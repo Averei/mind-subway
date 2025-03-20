@@ -9,7 +9,7 @@ app = FastAPI(title="Mind Subway API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://mind-subway.onrender.com",
+        "https://mind-subway-frontend.onrender.com",
         "http://localhost:3000"
     ],
     allow_credentials=True,
